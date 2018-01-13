@@ -1,0 +1,9 @@
+﻿#JSGF V1.0;
+grammar demo;
+
+public <command> = <stop> | <goto>;
+
+<stop> = stop;
+<goto> = go to <alpha> <numeric>;
+<alpha> = alpha | bravo | charlie | delta | echo | foxtrot | golf | hotel | indigo | juliet;
+<numeric> = zero | one | two | three | four | five | six | seven | eight | nine;
